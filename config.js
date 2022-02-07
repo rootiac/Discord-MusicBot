@@ -15,9 +15,9 @@ module.exports = {
   nodes: [
     {
       identifier: "Main",
-      host: "",
-      port: 80,
-      password: "",
+      host: "fin1.vertexnodes.com",
+      port: 25506,
+      password: "sLXk4!?J!nY@bQd8",
       retryAmount: 5, //- Optional
       retryDelay: 1000, //- Optional
       //secure: true //- Optional | Default: false
