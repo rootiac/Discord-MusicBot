@@ -1,5 +1,5 @@
 module.exports = {
-  Token: process.env.token, "" //Bot's Token
+  token: process.env.token || "", //Bot's Token
   clientId: process.env.clientId || "", //ID of the bot
   clientSecret: process.env.clientSecret || "", //Client Secret of the bot
   port: 3000, //Port of the API and Dashboard
